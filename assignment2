@@ -1,9 +1,0 @@
-#include<stdio.h>
-int main()
-{
-int number;
-printf(enter an enteger number :);
-fflush(stdin); fflush(stdout);
-scanf(%d,&number);
-printf(rn you enterd: %d,number);
-}
