@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+float a,b,c;
+printf(enter three number:);
+fflush(stdin);fflush(stdout);
+scanf(%f %f %f,&a,&b,&c);
+if (a>b & b>c)
+	printf(rn largest number=%f,a);
+else if (b>a & a>c)
+	printf(rn largest number=%f,b);
+else
+	printf(rn largest number=%f,c);
+
+	return 0;
+}
