@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+char c;
+printf("enter a character:");
+fflush(stdin);fflush(stdout);
+scanf("%c",&c);
+printf("ascii vlaue of %f =%d ",c,c);
+return 0;
+}
