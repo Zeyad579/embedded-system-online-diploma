@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int num ,sum=0,i;
+printf(enter an integer number:);
+fflush(stdout);fflush(stdin);
+scanf(%d,&num);
+for(i=1;i<=num;i++)
+{
+	sum+=i;
+}
+printf(sum=%d,sum);
+
+}
