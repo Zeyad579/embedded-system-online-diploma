@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int num ,i;
+	unsigned long long int factorial=1;
+	printf("enter an integer number:");
+	fflush(stdout);fflush(stdin);
+	scanf("%d",&num);
+	if (num<0)
+		printf("error!!!factorial of negative number dosent exist");
+	else
+	{
+		for(i=1;i<=num;i++)
+		{
+			factorial*=i;
+		}
+		printf("factorial=%d",factorial);
+	}
+
+}
